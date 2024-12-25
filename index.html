@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="description" content="clipboard-landing-page | frontend mentor">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | Clipboard landing page</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+    <!-- Header Section: Contains the main introduction and download buttons -->
+    <header class="header">
+      <!-- Responsive background image for header -->
+      <picture class="header-bg">
+        <source media="(max-width:650px)" srcset="./images/bg-header-mobile.png">
+        <img src="./images/bg-header-desktop.png" alt="header background">
+      </picture>
+
+      <!-- Main container for header content -->
+      <div class="container heading animate">
+        <img src="./images/logo.svg" alt="logo" width="125" height="125">
+        <h1>A history of everything you copy</h1>
+        <p>
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+        <!-- Download buttons for iOS and Mac -->
+        <div class="btn-group animate-left">
+          <button type="button" class="btn ios">Download for iOS</button>
+          <button type="button" class="btn mac">Download for Mac</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Section: Snippets tracking introduction -->
+      <section class="section-title animate">
+        <div class="container heading flex-between">
+          <h2>Keep track of your snippets</h2>
+          <p>
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our
+            Mac and iOS apps will help you organize everything.
+          </p>
+        </div>
+      </section>
+
+      <!-- Hero Section: Features explanation with image -->
+      <section class="hero-section animate">
+        <img class="animate-left" src="./images/image-computer.png" alt="computer illustration">
+        <div class="hero-text animate">
+          <!-- Highlighted features -->
+          <h3>Quick Search</h3>
+          <p>
+            Easily search your snippets by content, category, web address,
+            application, and more.
+          </p>
+          <h3>iCloud Sync</h3>
+          <p>Instantly saves and syncs snippets across all your devices.</p>
+          <h3>Complete History</h3>
+          <p>
+            Retrieve any snippets from the first moment you started using the
+            app.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section: Access Clipboard Anywhere -->
+      <section class="section-title">
+        <div class="container heading animate">
+          <h2>Access Clipboard anywhere</h2>
+          <p>
+            Whether you’re on the go, or at your computer, you can access all
+            your Clipboard snippets in a few simple clicks.
+          </p>
+        </div>
+      </section>
+
+      <!-- Illustration of supported devices -->
+      <img class="devices-img animate-left" src="./images/image-devices.png" alt="devices illustration">
+
+      <!-- Section: Workflow tools introduction -->
+      <section class="section-title">
+        <div class="container heading animate">
+          <h2>Supercharge your workflow</h2>
+          <p>We’ve got the tools to boost your productivity.</p>
+        </div>
+      </section>
+
+      <!-- Features Section: Explanation of unique tools -->
+      <section class="featuer">
+        <div class="container">
+          <div class="featuer-item animate">
+            <img src="./images/icon-blacklist.svg" alt="blacklist icon">
+            <h3>Create blacklists</h3>
+            <p>
+              Ensure sensitive information never makes its way to your clipboard
+              by excluding certain sources.
+            </p>
+          </div>
+          <div class="featuer-item animate">
+            <img src="./images/icon-text.svg" alt="text icon">
+            <h3>Plain text snippets</h3>
+            <p>
+              Remove unwanted formatting from copied text for a consistent look.
+            </p>
+          </div>
+          <div class="featuer-item animate">
+            <img src="./images/icon-preview.svg" alt="preview icon">
+            <h3>Sneak preview</h3>
+            <p>
+              Quick preview of all snippets on your Clipboard for easy access.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Supported brands logos -->
+      <div class="container suporter animate">
+        <img src="./images/logo-google.png" alt="Google logo">
+        <img src="./images/logo-ibm.png" alt="IBM logo">
+        <img src="./images/logo-microsoft.png" alt="Microsoft logo">
+        <img src="./images/logo-hp.png" alt="HP logo">
+        <img src="./images/logo-vector-graphics.png" alt="Vector Graphics logo">
+      </div>
+
+      <!-- Section: Final call-to-action -->
+      <section class="section-title">
+        <div class="container heading animate">
+          <h2>Clipboard for iOS and Mac OS</h2>
+          <p>
+            Available for free on the App Store. Download for Mac or iOS, sync
+            with iCloud and you’re ready to start adding to your clipboard.
+          </p>
+          <div class="btn-group animate-left">
+            <button type="button" class="btn ios">Download for iOS</button>
+            <button type="button" class="btn mac">Download for Mac</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section: Navigation and social media links -->
+    <footer class="footer">
+      <div class="container">
+        <img src="./images/logo.svg" alt="logo" width="50">
+
+        <!-- Footer navigation links -->
+        <nav class="links">
+          <ul>
+            <li><a href="#FAQs">FAQs</a></li>
+            <li><a href="#Privacy-Policy">Privacy Policy</a></li>
+            <li><a href="#Install-Guide">Install Guide</a></li>
+            <li><a href="#Contact-Us">Contact Us</a></li>
+            <li><a href="#Press-Kit">Press Kit</a></li>
+          </ul>
+        </nav>
+
+        <!-- Social media links -->
+        <div class="social-media">
+          <ul>
+            <li><a href="http://facebook.com/~~~" aria-label="visit facebook"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="http://x.com/~~~" aria-label="visit twitter"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="http://instagram.com/~~~" aria-label="visit instagram"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Attribution for the challenge -->
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/alexproman">Mohamed Hamid</a>.
+      </p>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+    const animatedElements = document.querySelectorAll(".animate, .animate-left");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+              }else{
+              entry.target.classList.remove("show");
+
+            }
+        });
+    });
+
+    animatedElements.forEach((el) => observer.observe(el));
+});
+
+    </script>
+
+    <!-- FontAwesome script for social media icons -->
+    <script src="https://kit.fontawesome.com/965ccb88f2.js" crossorigin="anonymous"></script>
+  </body>
+</html>
